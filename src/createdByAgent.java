@@ -4,9 +4,7 @@
 	createdByAgent.java:    Program which creates another Agent and sends 
 	------------     it some messages
 	
-    Author:  Jean Vaucher
-    Date:    Aug 10 2003 
-	
+
 *****************************************************************/
 
 
@@ -59,7 +57,7 @@ public class createdByAgent extends Agent
             
             Object [] args = new Object[2];
             args[0] = "3";
-            args[1] = "Allo there";
+            args[1] = "Hello there";
 	 
             String name = "Fred" ;
             AID newAID2 = new AID( name, AID.ISLOCALNAME );
